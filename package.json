@@ -4,7 +4,14 @@
   "description": "Basic Page Object Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:registration": "npx cypress run --spec cypress/e2e/tests/RegistrationTest.cy.js",
+    "test:login": "npx cypress run --spec cypress/e2e/tests/LoginTest.cy.js",
+    "test:productData": "npx cypress run --spec cypress/e2e/tests/ProductDataTest.cy.js",
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/AddToCartTest.cy.js",
+    "test:wishlist": "npx cypress run --spec cypress/e2e/tests/WishlistTest.cy.js",
+    "test:productSearch": "npx cypress run --spec cypress/e2e/tests/ProductsSearchTest.cy.js",
+    "test:regression": "npx cypress run --env grepTags=@regression",
+    "test:smoke": "npx cypress run --env grepTags=@smoke"
   },
   "repository": {
     "type": "git",
@@ -18,6 +25,10 @@
   },
   "homepage": "https://github.com/JayantaAutomationGuru/CypressPageObject#readme",
   "dependencies": {
-    "cypress": "^14.0.1"
+    "cypress": "^14.0.1",
+    "grep": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^4.1.0"
   }
 }

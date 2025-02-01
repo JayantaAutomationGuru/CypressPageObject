@@ -2,7 +2,7 @@
 https://docs.cypress.io/app/get-started/why-cypress
 # CypressPageObject
 1. Clone Project
-2. Perform npm install
+2. npm install
 
 # Useful install before strating project
 Basic Page Object Framework
@@ -15,7 +15,14 @@ Step 6 - Install Cypress
 npm install cypress
 npx cypress -v
 npx cypress verify
-
 Step 7 - Open Cypress
 npx cypress open
-#Jaspreet
+
+# Different way to run scripts
+1. Run any Test file and it will run all test
+2. Run with tag
+
+# How to run
+1. Run from Cypress Test Runner
+2. Run from package.json
+
