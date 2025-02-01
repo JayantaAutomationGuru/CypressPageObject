@@ -1,0 +1,1 @@
+//This file stores the error messages for form validation for Register Account page
