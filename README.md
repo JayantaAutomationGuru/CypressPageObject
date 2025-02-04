@@ -42,3 +42,14 @@ npx cypress open
 13. Headless Mode
 14. Service Automation
 
+# Why we need Cypress
+Traditional web applications use front end as HTML, CSS & Javascripts but modern applications are designed by javascript framework like React, Angular, Angular JS etc. 
+10 reasons why you should use Cypress for web testing automation
+1. Zero configuration to get started
+2. Low learning curve
+3. Excellent development experience
+4. Everything is already packed for using
+5. Automatic waiting
+6. Control of network traffic
+7. Various types of automated tests
+8. Top-notch documentation!
