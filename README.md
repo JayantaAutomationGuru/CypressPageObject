@@ -26,3 +26,18 @@ npx cypress open
 1. Run from Cypress Test Runner
 2. Run from package.json
 
+# FEATURES:
+1. Dry run
+2. Signle test Case run
+3. Parallel run
+4. Test case run with tag (smoke, Regression, WIP)
+5. Screenshot capture on failure
+6. Rerun Feature
+7. Data Driven
+8. Signle test Case run
+9. Database validation
+10. Jenkin Integration
+11. CI/CD pipeline
+12. Logger Implementation
+13. Headless Mode
+
