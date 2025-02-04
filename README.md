@@ -40,4 +40,5 @@ npx cypress open
 11. CI/CD pipeline
 12. Logger Implementation
 13. Headless Mode
+14. Service Automation
 
